@@ -1,5 +1,4 @@
 import 'package:basic_calc_app/pages/calculator_page.dart';
-import 'package:basic_calc_app/pages/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +20,7 @@ class CalculatorApp extends StatelessWidget {
        
        
       ),
-      home: dCalculatorHome(),
+      home: CalculatorPage(title: "Simple Calculator",),
     );
   }
 }
